@@ -176,7 +176,7 @@ footer {
   padding: 2rem;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES 
 @media screen and (max-width: 991px) {
   .navbar-nav {
     flex-direction: row;
@@ -199,9 +199,9 @@ footer {
     height: -webkit-fill-available;
   }
 }
-
+*/
 /* MEDIA QUERIES */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 991px) {
   .navbar-nav {
     flex-direction: row;
     justify-content: space-around;
