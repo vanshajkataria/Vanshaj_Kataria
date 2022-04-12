@@ -110,6 +110,10 @@ a, a:hover {
   height: 20rem;
 }
 
+footer {
+  text-align: center;
+}
+
 /* MEDIA QUERIES */
 @media screen and (max-width: 574px) {
   .sec-1 {
