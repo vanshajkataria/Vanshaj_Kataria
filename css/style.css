@@ -86,7 +86,7 @@ a, a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: -webkit-fill-available;
+  height: 100vh;
 }
 
 .sec-1 .text {
@@ -107,7 +107,7 @@ a, a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: -webkit-fill-available;
+  height: 100vh;
 }
 
 .sec-2 .text {
@@ -127,7 +127,7 @@ a, a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: -webkit-fill-available;
+  height: 100vh;
 }
 
 .sec-3 .text {
@@ -148,7 +148,7 @@ a, a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: -webkit-fill-available;
+  height: 100vh;
 }
 
 .sec-4 .text {
@@ -185,7 +185,7 @@ footer {
 
   .sec-1 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-1 .text h1 {
@@ -198,7 +198,7 @@ footer {
 
   .sec-2 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-2 .text {
@@ -207,7 +207,7 @@ footer {
 
   .sec-3 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-3 .text {
@@ -216,7 +216,7 @@ footer {
 
   .sec-4 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-4 .text {
@@ -233,7 +233,7 @@ footer {
 
   .sec-1 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-1 .text h1 {
@@ -246,7 +246,7 @@ footer {
 
   .sec-2 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-2 .text {
@@ -255,7 +255,7 @@ footer {
 
   .sec-3 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-3 .text {
@@ -264,7 +264,7 @@ footer {
 
   .sec-4 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-4 .text {
@@ -281,7 +281,7 @@ footer {
 
   .sec-1 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-1 .text h1 {
@@ -294,7 +294,7 @@ footer {
 
   .sec-2 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-2 .text {
@@ -303,7 +303,7 @@ footer {
 
   .sec-3 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-3 .text {
@@ -312,7 +312,7 @@ footer {
 
   .sec-4 {
     display: grid;
-    height: -webkit-fill-available;
+    height: 100vh;
   }
 
   .sec-4 .text {
