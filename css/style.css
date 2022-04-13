@@ -95,8 +95,8 @@ a, a:hover {
 
 .sec-1 .img img {
   justify-content: center;
-  width: auto;
-  height: auto;
+  width: 20rem;
+  height: 20rem;
 }
 
 /* SECTION-2 */
@@ -116,8 +116,8 @@ a, a:hover {
 
 .sec-2 .img img {
   justify-content: center;
-  width: auto;
-  height: auto;
+  width: 20rem;
+  height: 20rem;
 }
 
 /* SECTION-3 */
@@ -136,8 +136,8 @@ a, a:hover {
 
 .sec-3 .img img {
   justify-content: center;
-  width: auto;
-  height: auto;
+  width: 20rem;
+  height: 20rem;
 }
 
 /* SECTION-4 */
@@ -162,8 +162,8 @@ a, a:hover {
 
 .sec-4 .img img {
   justify-content: center;
-  width: auto;
-  height: auto;
+  width: 20rem;
+  height: 20rem;
 }
 
 .social a {
