@@ -309,10 +309,6 @@ footer {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 573px) and (min-width: 0) {
-  body {
-    font-size: 0.1rem;
-  }
-
   .navbar-nav {
     flex-direction: row;
   }
