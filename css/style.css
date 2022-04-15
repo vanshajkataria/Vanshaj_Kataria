@@ -165,3 +165,48 @@ footer {
     display: grid;
   }
 }
+
+/* Media Queries */
+@media screen and (max-width: 764px) and (orientation: landscape) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sec-1 .about {
+    display: flex;
+  }
+
+  .sec-1 .about .img img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .sec-2 .work {
+    display: flex;
+  }
+
+  .sec-2 .work .img img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .sec-3 .contact {
+    display: flex;
+  }
+
+  .sec-3 .contact .img img {
+    width: 15rem;
+    height: 15rem;
+  }
+
+  .sec-4 .social {
+    display: flex;
+  }
+
+  .sec-4 .social .img img {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
