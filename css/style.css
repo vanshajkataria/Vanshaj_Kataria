@@ -1,0 +1,358 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  background: linear-gradient(90deg, #1C0C5B, #3D2C8D, #916BBF, #C996CC);
+  background-size: 600% 600%;
+  animation: Gradient 10s ease infinite;
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0 50%
+  }
+}
+
+main {
+  color: #ffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+}
+
+p {
+  font-weight: 400;
+}
+
+a, a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* NAVBAR */
+.navbar {
+  background: rgba(255, 255, 255, 0.100);
+  -webkit-backdrop-filter: blur(7px);
+}
+
+.navbar-nav {
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+/* Section 1 */
+.sec-1 .about {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.sec-1 .about .text {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.sec-1 .about .img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.sec-1 .about .img img {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* Section 2 */
+.sec-2 .work {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.sec-2 .work .text {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.sec-2 .work .img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.sec-2 .work .img img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Section 3 */
+.sec-3 .contact {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.sec-3 .contact .text {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.sec-3 .contact .img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.sec-3 .contact .img img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* Section 4 */
+.sec-4 .social {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+
+.sec-4 .social .text {
+  margin: 0 auto;
+  width: 50%;
+  text-align: center;
+}
+
+.sec-4 .text .social-icons img {
+  width: 32px;
+  height: 32px;
+}
+
+.sec-4 .social .img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.sec-4 .social .img img {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+/* Media Queries */
+@media screen and (max-width: 1024px) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sec-1 .about {
+    display: grid;
+  }
+
+  .sec-1 .about .text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-1 .about .img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .sec-1 .about .img img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .sec-2 .work {
+    display: grid;
+  }
+
+  .sec-2 .work .text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-2 .work .img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  .sec-2 .work .img img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  .sec-3 .contact {
+    display: grid;
+  }
+
+  .sec-3 .contact .text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-3 .contact .img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  .sec-3 .contact .img img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  .sec-4 .social {
+    display: grid;
+  }
+
+  .sec-4 .social .text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-4 .social .img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+
+  .sec-4 .social .img img {
+    display: block;
+    margin: auto;
+    width: 100%;
+  }
+}
+
+/* Media Queries */
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  .navbar-nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .sec-1 .about {
+    display: flex;
+  }
+
+  .sec-1 .about .text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-1 .about .img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .sec-1 .about .img img {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .sec-2 .work {
+    display: flex;
+  }
+
+  .sec-2 .work .text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-2 .work .img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .sec-2 .work .img img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .sec-3 .contact {
+    display: flex;
+  }
+
+  .sec-3 .contact .text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-3 .contact .img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .sec-3 .contact .img img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .sec-4 .social {
+    display: flex;
+  }
+
+  .sec-4 .social .text {
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .sec-4 .social .img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .sec-4 .social .img img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+}
