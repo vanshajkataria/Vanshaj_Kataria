@@ -1,6 +1,6 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   background: linear-gradient(90deg, #1C0C5B, #3D2C8D, #916BBF, #C996CC);
   background-size: 600% 600%;
   animation: Gradient 10s ease infinite;
@@ -50,6 +50,7 @@ a, a:hover {
 
 /* Section 1 */
 .sec-1 .about {
+  grid-template: none;
   display: flex;
   align-items: center;
   height: 100vh;
@@ -60,6 +61,10 @@ a, a:hover {
   margin: 0 auto;
   width: 50%;
   text-align: center;
+}
+
+.sec-1 .about .text h1 {
+  font-family: 'Oswald', sans-serif;
 }
 
 .sec-1 .about .img {
