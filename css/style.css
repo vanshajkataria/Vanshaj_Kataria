@@ -1,5 +1,7 @@
+
+
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-weight: 400;
   background: linear-gradient(90deg, #1C0C5B, #3D2C8D, #916BBF, #C996CC);
   background-size: 600% 600%;
@@ -40,7 +42,12 @@ a, a:hover {
 /* NAVBAR */
 .navbar {
   background: rgba(255, 255, 255, 0.100);
-  -webkit-backdrop-filter: blur(7px);
+  backdrop-filter: blur(7px);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 
 .navbar-nav {
@@ -61,10 +68,6 @@ a, a:hover {
   margin: 0 auto;
   width: 50%;
   text-align: center;
-}
-
-.sec-1 .about .text h1 {
-  font-family: 'Oswald', sans-serif;
 }
 
 .sec-1 .about .img {
@@ -183,7 +186,7 @@ footer {
 
   .sec-1 .about .text {
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     text-align: center;
   }
 
@@ -279,7 +282,7 @@ footer {
 
   .sec-1 .about .text {
     margin: 0 auto;
-    width: 100%;
+    width: 90%;
     text-align: center;
   }
 
